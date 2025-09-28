@@ -62,7 +62,7 @@
 .logo-track {
   display: flex;
   animation: scroll 30s linear infinite;
-  width: calc(200% + 40px); /* Double width for seamless loop */
+  width: 200%;
 }
 
 .logo-item {
@@ -88,7 +88,6 @@
   transform: scale(1.05);
 }
 
-/* Animation keyframes */
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -98,12 +97,10 @@
   }
 }
 
-/* Pause animation on hover */
 .logo-slider-container:hover .logo-track {
   animation-play-state: paused;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .logo-item {
     min-width: 100px;
@@ -128,10 +125,6 @@
   }
 }
 </style>
-
-<!-- Alternative version with custom section settings -->
-{% comment %}
-To use this as a customizable section, create a new section file (logo-slider.liquid) and add this schema:
 
 {% schema %}
 {
@@ -194,4 +187,3 @@ To use this as a customizable section, create a new section file (logo-slider.li
   ]
 }
 {% endschema %}
-{% endcomment %}
