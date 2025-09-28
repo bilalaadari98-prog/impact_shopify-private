@@ -109,6 +109,23 @@
         "logo_item_border": ""
       }
     },
+    "image_with_text_overlay_EHxx4W": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Para_El.png",
+        "mobile_image": "shopify://shop_images/Para_El.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -240,21 +257,47 @@
         "background_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_EHxx4W": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "slideshow_7UynMp": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QHWyTF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Para_El.png",
+            "mobile_image": "shopify://shop_images/Para_El.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QHWyTF"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Para_El.png",
-        "mobile_image": "shopify://shop_images/Para_El.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     }
   },
@@ -264,6 +307,7 @@
     "image_with_text_overlay_EHxx4W",
     "impact-text",
     "faq",
-    "scroll_logo_VhKyJT"
+    "scroll_logo_VhKyJT",
+    "slideshow_7UynMp"
   ]
 }
