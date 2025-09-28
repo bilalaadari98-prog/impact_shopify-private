@@ -84,21 +84,13 @@
             "logo_width": 120,
             "link": ""
           }
-        },
-        "logo_hwiqpp": {
-          "type": "logo",
-          "settings": {
-            "logo_width": 120,
-            "link": ""
-          }
         }
       },
       "block_order": [
         "logo_QhVBda",
         "logo_KFzgfY",
         "logo_8jfDde",
-        "logo_78Apyg",
-        "logo_hwiqpp"
+        "logo_78Apyg"
       ],
       "name": "Logo list",
       "settings": {
@@ -203,12 +195,57 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "scroll_logo_VhKyJT": {
+      "type": "scroll-logo",
+      "blocks": {
+        "logo_RcQ3Fm": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/download_3.png",
+            "logo_alt": ""
+          }
+        },
+        "logo_3dctFa": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/download_6.png",
+            "logo_alt": ""
+          }
+        },
+        "logo_tQkTjQ": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/download_1.png",
+            "logo_alt": ""
+          }
+        },
+        "logo_pDjDME": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/download_2.png",
+            "logo_alt": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_RcQ3Fm",
+        "logo_3dctFa",
+        "logo_tQkTjQ",
+        "logo_pDjDME"
+      ],
+      "name": "Logo Slider",
+      "settings": {
+        "animation_speed": 30,
+        "background_color": "#ffffff"
+      }
     }
   },
   "order": [
     "slideshow",
     "logo_list_fwcGAC",
     "impact-text",
-    "faq"
+    "faq",
+    "scroll_logo_VhKyJT"
   ]
 }
