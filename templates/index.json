@@ -296,8 +296,35 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "before_after_image_qLDRdp": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "El Salvador de relaciones",
+        "content": "<p>Conoces demasiado bien esta situación y, sinceramente, el dolor del rechazo es profundo. El ambiente en la cama está por los suelos y, aparte de decirse ‘buenas noches’, ya no tienen nada más que decirse… ¡Eso se acabó ahora!</p>",
+        "before_image": "shopify://shop_images/17._Sept._2025_16_08_43.webp",
+        "before_image_mobile": "shopify://shop_images/17._Sept._2025_16_08_43.webp",
+        "after_image": "shopify://shop_images/ChatGPT_Image_17._Sept._2025_16_17_31.webp",
+        "after_image_mobile": "shopify://shop_images/ChatGPT_Image_17._Sept._2025_16_17_31.webp",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Antes",
+        "after_text": "Después",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     }
   },
@@ -308,6 +335,7 @@
     "impact-text",
     "faq",
     "scroll_logo_VhKyJT",
-    "slideshow_7UynMp"
+    "slideshow_7UynMp",
+    "before_after_image_qLDRdp"
   ]
 }
