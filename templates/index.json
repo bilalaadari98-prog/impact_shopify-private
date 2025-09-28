@@ -50,38 +50,13 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "rich_text_dd4qhd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ghiM8j": {
-          "type": "heading",
-          "settings": {
-            "text": "Hablan de nosotros",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ghiM8j"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "logo_list_fwcGAC": {
       "type": "logo-list",
       "blocks": {
         "logo_QhVBda": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/download_1.png",
             "logo_width": 120,
             "link": ""
           }
@@ -89,13 +64,15 @@
         "logo_KFzgfY": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/download_6.png",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_8jfDde": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/download_2.png",
             "logo_width": 120,
             "link": ""
           }
@@ -103,6 +80,7 @@
         "logo_78Apyg": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/download_3.png",
             "logo_width": 120,
             "link": ""
           }
@@ -126,9 +104,9 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "Logo list",
+        "title": "Hablan de nosotros",
         "content": "",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "items_per_row": 5,
         "background": "",
         "background_gradient": "",
@@ -229,7 +207,6 @@
   },
   "order": [
     "slideshow",
-    "rich_text_dd4qhd",
     "logo_list_fwcGAC",
     "impact-text",
     "faq"
