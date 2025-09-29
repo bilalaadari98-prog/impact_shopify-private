@@ -320,6 +320,12 @@
             "collapse_content": false
           }
         },
+        "liquid_cjgXUE": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.stock-alert {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffe5e5;\n  color: #b30000;\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-weight: 600;\n  font-size: 14px;\n}\n\n.stock-dot {\n  height: 8px;\n  width: 8px;\n  background-color: red;\n  border-radius: 50%;\n  margin-right: 8px;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 50%, 100% { opacity: 1; }\n  25%, 75% { opacity: 0; }\n}\n</style>\n\n<div class=\"stock-alert\">\n  <span class=\"stock-dot\"></span>\n  Stock limitado: 6 unidades\n</div>"
+          }
+        },
         "variant_picker_Eq8kFa": {
           "type": "variant_picker",
           "settings": {
@@ -359,6 +365,7 @@
         "rating_NJcm4J",
         "separator_G8qDpQ",
         "description_AVe9WK",
+        "liquid_cjgXUE",
         "variant_picker_Eq8kFa",
         "quantity_selector_ApzX9y",
         "buy_buttons_Whbnyw",
