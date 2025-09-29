@@ -278,6 +278,22 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "image_with_text_overlay_L8em3h": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Banniere_Fete_de_la_Musique_Rose_Violet_Dynamique.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "featured_product_9AVJWJ": {
       "type": "featured-product",
       "blocks": {
@@ -728,6 +744,7 @@
     "scroll_logo_VhKyJT",
     "slideshow_7UynMp",
     "before_after_image_qLDRdp",
+    "image_with_text_overlay_L8em3h",
     "featured_product_9AVJWJ",
     "multiple_images_with_text_FTPecU",
     "175916662986e564d7",
