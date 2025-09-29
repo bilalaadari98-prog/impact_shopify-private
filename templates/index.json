@@ -430,18 +430,18 @@
         "input_text_color": ""
       }
     },
-    "1759169861b6cdd7e5": {
+    "175916662986e564d7": {
       "type": "apps",
       "blocks": {
-        "essential_countdown_timer_app_block_Djida7": {
+        "essential_countdown_timer_app_block_M3Ym7k": {
           "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
-            "id": ""
+            "id": "cmg5gapzs003kuqyesr1b348g"
           }
         }
       },
       "block_order": [
-        "essential_countdown_timer_app_block_Djida7"
+        "essential_countdown_timer_app_block_M3Ym7k"
       ],
       "settings": {
         "full_width": true,
@@ -481,28 +481,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "175916662986e564d7": {
-      "type": "apps",
-      "blocks": {
-        "essential_countdown_timer_app_block_M3Ym7k": {
-          "type": "shopify://apps/essential-countdown-timer/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "cmg5gapzs003kuqyesr1b348g"
-          }
-        }
-      },
-      "block_order": [
-        "essential_countdown_timer_app_block_M3Ym7k"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "multiple_images_with_text_zdGxi8": {
@@ -746,9 +724,8 @@
     "before_after_image_qLDRdp",
     "image_with_text_overlay_L8em3h",
     "featured_product_9AVJWJ",
-    "1759169861b6cdd7e5",
-    "multiple_images_with_text_FTPecU",
     "175916662986e564d7",
+    "multiple_images_with_text_FTPecU",
     "multiple_images_with_text_zdGxi8",
     "tabs_dgJUm6",
     "faq",
