@@ -584,6 +584,37 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "multiple_images_with_text_UmEkbD": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_XGiCqw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Posiciones_Para_Probar.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Posiciones que creías imposibles... ahora son posibles.",
+            "content": "<p>La almohada <strong>Oveliz</strong> libera los movimientos, equilibra delicadamente los ángulos y hace que cada posición sea fluida y natural. Misionero intenso, cowgirl sin esfuerzo, 69 cómodo, posiciones laterales sin dolor... y eso es solo el comienzo.</p><p>Con nuestro <strong>e-book exclusivo con 50 posiciones</strong>, descubrirás aún más formas de sorprender a tu pareja y reavivar la pasión.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XGiCqw"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -599,6 +630,7 @@
     "multiple_images_with_text_zdGxi8",
     "tabs_dgJUm6",
     "faq",
-    "multiple_images_with_text_aKAhcn"
+    "multiple_images_with_text_aKAhcn",
+    "multiple_images_with_text_UmEkbD"
   ]
 }
