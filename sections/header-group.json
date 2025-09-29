@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Envío gratis",
+            "url": ""
+          }
+        },
+        "message_zYQkxj": {
+          "type": "message",
+          "settings": {
+            "text": "Oferta -50% Fiesta Nacional",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_zYQkxj"
       ],
       "settings": {
         "enable_sticky": false,
