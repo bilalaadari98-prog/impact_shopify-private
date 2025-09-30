@@ -319,6 +319,12 @@
           "type": "badges",
           "settings": {}
         },
+        "liquid_393hVX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmg5gapzs003kuqyesr1b348g\"></div>"
+          }
+        },
         "price_6daTy6": {
           "type": "price",
           "disabled": true,
@@ -386,12 +392,6 @@
         "pickup_availability_thkr4Q": {
           "type": "pickup_availability",
           "settings": {}
-        },
-        "liquid_dmagVc": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"display: flex; align-items: center; background-color: #FFF5F7; border-radius: 12px; padding: 12px 16px; font-family: 'Poppins', sans-serif; color: #FF4DA6; font-size: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);\">\n  <span style=\"font-size: 22px; margin-right: 10px;\">🎁</span>\n  <span><strong style=\"color: #FF1F6A;\">7 de cada 10 clientes eligen sorprender a su pareja con este cojín </span>\n</div>"
-          }
         }
       },
       "block_order": [
@@ -399,6 +399,7 @@
         "vendor_gjbJqX",
         "title_bteaPT",
         "badges_CLLe68",
+        "liquid_393hVX",
         "price_6daTy6",
         "rating_NJcm4J",
         "separator_G8qDpQ",
@@ -408,8 +409,7 @@
         "quantity_selector_ApzX9y",
         "liquid_Ga9yMb",
         "buy_buttons_Whbnyw",
-        "pickup_availability_thkr4Q",
-        "liquid_dmagVc"
+        "pickup_availability_thkr4Q"
       ],
       "name": "Featured product",
       "settings": {
