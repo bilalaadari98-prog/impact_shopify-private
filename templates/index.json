@@ -461,6 +461,23 @@
         "button_text_color": ""
       }
     },
+    "image_with_text_overlay_x8xCMm": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Difference_And_Comparison_Between_Coffee_And_Tea_Facebook_Post.png",
+        "mobile_image": "shopify://shop_images/Difference_And_Comparison_Between_Coffee_And_Tea_Facebook_Post.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "multiple_images_with_text_zdGxi8": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -716,6 +733,7 @@
     "image_with_text_overlay_L8em3h",
     "featured_product_9AVJWJ",
     "multiple_images_with_text_ChEhyb",
+    "image_with_text_overlay_x8xCMm",
     "multiple_images_with_text_zdGxi8",
     "tabs_dgJUm6",
     "multiple_images_with_text_aKAhcn",
