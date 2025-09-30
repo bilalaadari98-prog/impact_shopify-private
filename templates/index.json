@@ -297,6 +297,20 @@
     "featured_product_9AVJWJ": {
       "type": "featured-product",
       "blocks": {
+        "title_bteaPT": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "description_AVe9WK": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
         "kaching_bundles_app_block_ycCVqm": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -307,13 +321,6 @@
           "type": "vendor",
           "disabled": true,
           "settings": {}
-        },
-        "title_bteaPT": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h2"
-          }
         },
         "badges_CLLe68": {
           "type": "badges",
@@ -335,14 +342,6 @@
         "separator_G8qDpQ": {
           "type": "separator",
           "settings": {}
-        },
-        "description_AVe9WK": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
         },
         "liquid_cjgXUE": {
           "type": "liquid",
@@ -395,14 +394,14 @@
         }
       },
       "block_order": [
+        "title_bteaPT",
+        "description_AVe9WK",
         "kaching_bundles_app_block_ycCVqm",
         "vendor_gjbJqX",
-        "title_bteaPT",
         "badges_CLLe68",
         "price_6daTy6",
         "rating_NJcm4J",
         "separator_G8qDpQ",
-        "description_AVe9WK",
         "liquid_cjgXUE",
         "variant_picker_Eq8kFa",
         "quantity_selector_ApzX9y",
@@ -716,10 +715,10 @@
     "175917036413a955c5",
     "multiple_images_with_text_ChEhyb",
     "multiple_images_with_text_zdGxi8",
-    "tabs_dgJUm6",
     "multiple_images_with_text_aKAhcn",
     "multiple_images_with_text_UmEkbD",
     "faq",
+    "tabs_dgJUm6",
     "1759158440451fe432"
   ]
 }
