@@ -315,12 +315,6 @@
             "heading_tag": "h2"
           }
         },
-        "liquid_kDe7xk": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmg5gapzs003kuqyesr1b348g\"></div>"
-          }
-        },
         "badges_CLLe68": {
           "type": "badges",
           "settings": {}
@@ -404,7 +398,6 @@
         "kaching_bundles_app_block_ycCVqm",
         "vendor_gjbJqX",
         "title_bteaPT",
-        "liquid_kDe7xk",
         "badges_CLLe68",
         "price_6daTy6",
         "rating_NJcm4J",
@@ -485,7 +478,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "button_background": "",
         "button_text_color": ""
       }
@@ -516,7 +509,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "button_background": "",
         "button_text_color": ""
       }
@@ -573,7 +566,7 @@
         "first_tab_open": false,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "heading_color": "",
         "heading_gradient": ""
       }
@@ -604,7 +597,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "button_background": "",
         "button_text_color": ""
       }
@@ -635,7 +628,7 @@
         "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "button_background": "",
         "button_text_color": ""
       }
@@ -683,7 +676,7 @@
         "text_position": "start",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#1a1a1a",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
