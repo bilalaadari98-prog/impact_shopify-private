@@ -208,6 +208,8 @@
         "image_QHWyTF": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Ajouter_un_sous-titre_3.png",
+            "mobile_image": "shopify://shop_images/Ajouter_un_sous-titre_3.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -221,7 +223,7 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
-            "background": "",
+            "background": "#ffffffff",
             "background_gradient": ""
           }
         }
