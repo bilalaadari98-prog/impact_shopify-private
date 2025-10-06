@@ -101,7 +101,7 @@
         "text_alignment": "center",
         "items_per_row": 5,
         "background": "#ffffffff",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1) 84%, rgba(33, 249, 150, 1) 85%, rgba(255, 255, 255, 1) 85%)",
+        "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 80%, rgba(33, 249, 150, 1) 85%, rgba(255, 255, 255, 1) 85%)",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
