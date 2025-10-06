@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Una_pareja_feliz_comienza_por_la_intimidad.png",
+            "image": "shopify://shop_images/Screenshot_2025-10-06_at_20.44.26.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -56,7 +56,6 @@
         "logo_QhVBda": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/download_1.png",
             "logo_width": 120,
             "link": ""
           }
@@ -64,7 +63,6 @@
         "logo_KFzgfY": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/download_6.png",
             "logo_width": 300,
             "link": ""
           }
@@ -72,7 +70,6 @@
         "logo_8jfDde": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/download_2.png",
             "logo_width": 120,
             "link": ""
           }
@@ -80,7 +77,6 @@
         "logo_78Apyg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/download_3.png",
             "logo_width": 120,
             "link": ""
           }
@@ -118,8 +114,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Para_El.png",
-        "mobile_image": "shopify://shop_images/Para_El.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -169,28 +163,24 @@
         "logo_RcQ3Fm": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/download_3.png",
             "logo_alt": ""
           }
         },
         "logo_3dctFa": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/download_6.png",
             "logo_alt": ""
           }
         },
         "logo_tQkTjQ": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/download_1.png",
             "logo_alt": ""
           }
         },
         "logo_pDjDME": {
           "type": "logo",
           "settings": {
-            "logo_image": "shopify://shop_images/download_2.png",
             "logo_alt": ""
           }
         }
@@ -214,8 +204,6 @@
         "image_QHWyTF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Para_El.png",
-            "mobile_image": "shopify://shop_images/Para_El.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -259,10 +247,6 @@
         "subheading": "",
         "title": "El Salvador de relaciones",
         "content": "<p>Conoces demasiado bien esta situación y, sinceramente, el dolor del rechazo es profundo. El ambiente en la cama está por los suelos y, aparte de decirse ‘buenas noches’, ya no tienen nada más que decirse… ¡Eso se acabó ahora!</p>",
-        "before_image": "shopify://shop_images/17._Sept._2025_16_08_43.webp",
-        "before_image_mobile": "shopify://shop_images/17._Sept._2025_16_08_43.webp",
-        "after_image": "shopify://shop_images/ChatGPT_Image_17._Sept._2025_16_17_31.webp",
-        "after_image_mobile": "shopify://shop_images/ChatGPT_Image_17._Sept._2025_16_17_31.webp",
         "expand_image": false,
         "text_position": "start",
         "before_after_text_position": "top",
@@ -286,7 +270,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Banniere_Fete_de_la_Musique_Rose_Violet_Dynamique.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -297,12 +280,6 @@
     "featured_product_9AVJWJ": {
       "type": "featured-product",
       "blocks": {
-        "kaching_bundles_app_block_ycCVqm": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "vendor_gjbJqX": {
           "type": "vendor",
           "disabled": true,
@@ -395,7 +372,6 @@
         }
       },
       "block_order": [
-        "kaching_bundles_app_block_ycCVqm",
         "vendor_gjbJqX",
         "title_bteaPT",
         "badges_CLLe68",
@@ -436,7 +412,6 @@
         "item_qTTe9J": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/b0b996ae-15da-462c-9e12-cd54ad510c5d.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "¿Por qué dice a menudo ‘Esta noche no’?",
@@ -469,8 +444,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Difference_And_Comparison_Between_Coffee_And_Tea_Facebook_Post.png",
-        "mobile_image": "shopify://shop_images/Difference_And_Comparison_Between_Coffee_And_Tea_Facebook_Post.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -484,7 +457,6 @@
         "item_qxVayN": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/f16f564b-2009-46be-919e-7704623ef0e6.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "El ángulo ergonómico que marca la diferencia",
@@ -572,7 +544,6 @@
         "item_pwPb6e": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Video.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "¿Por qué ya no pueden vivir el uno sin el otro?",
@@ -603,7 +574,6 @@
         "item_XGiCqw": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Posiciones_Para_Probar.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Posiciones que creías imposibles... ahora son posibles.",
@@ -682,23 +652,6 @@
     },
     "1759158440451fe432": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_iQPgFg": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_iQPgFg"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
