@@ -100,12 +100,12 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "#ffffffff",
+        "background": "#ffffff",
         "background_gradient": "radial-gradient(rgba(255, 255, 255, 1) 80%, rgba(33, 249, 150, 1) 85%, rgba(255, 255, 255, 1) 85%)",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "#ffffffff",
+        "logo_item_background": "#ffffff",
         "logo_item_border": ""
       }
     },
@@ -223,7 +223,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#ffffffff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -249,7 +249,7 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "#ffffffff",
+            "background": "#ffffff",
             "background_gradient": ""
           }
         }
@@ -502,6 +502,19 @@
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
+    },
+    "custom_liquid_FFqaQf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<img src=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1050\" alt=\"\" srcset=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=500 500w, //smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1000 1000w\" width=\"1050\" height=\"301\" loading=\"lazy\" style=\"width: 500px; margin-inline: auto\" sizes=\"500px\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -516,6 +529,7 @@
     "image_with_text_overlay_L8em3h",
     "featured_product_9AVJWJ",
     "faq",
-    "custom_liquid_xA6qyP"
+    "custom_liquid_xA6qyP",
+    "custom_liquid_FFqaQf"
   ]
 }
