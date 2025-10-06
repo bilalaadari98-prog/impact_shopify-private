@@ -202,6 +202,32 @@
         "background_color": "#ffffff"
       }
     },
+    "rich_text_qPWCQU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4EYAw8": {
+          "type": "heading",
+          "settings": {
+            "text": "Warum Snap Pro wählen?",
+            "heading_tag": "h6",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4EYAw8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow_7UynMp": {
       "type": "slideshow",
       "blocks": {
@@ -412,198 +438,6 @@
         "input_text_color": ""
       }
     },
-    "multiple_images_with_text_ChEhyb": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_qTTe9J": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "¿Por qué dice a menudo ‘Esta noche no’?",
-            "content": "<p>Porque la incomodidad corta el deseo.<br/>Con Oveliz se acabaron los dolores. Por fin se deja llevar. Y comparten un verdadero momento de placer.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_qTTe9J"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "collage",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "image_with_text_overlay_x8xCMm": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "multiple_images_with_text_zdGxi8": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_qxVayN": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "El ángulo ergonómico que marca la diferencia",
-            "content": "<p>Con su inclinación precisa de 27°, Oveliz se adapta a las curvas de tu cuerpo para una comodidad total.</p><p>Menos tensiones. Más placer</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_qxVayN"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "tabs_dgJUm6": {
-      "type": "tabs",
-      "blocks": {
-        "tab_HCbMQy": {
-          "type": "tab",
-          "settings": {
-            "title": "Características",
-            "content": "<p>La <strong>almohada Oveliz </strong>está compuesta de espuma viscoelástica de alta calidad y una funda de bambú hipoalergénica. Su ángulo ergonómico de <strong>27°</strong>, científicamente probado, optimiza de forma natural la anatomía femenina y alivia los dolores de espalda.</p><p><strong>Dimensiones:</strong> 60 × 30 × 15 cm – <strong>Peso:</strong> 1,2 kg – <strong>Color:</strong> antracita sutil que combina perfectamente con todos los estilos de decoración. Asa firme y antideslizante que siempre se mantiene en su lugar.</p><p>Diseñada para mejorar tu <strong>comodidad íntima</strong>, facilitar las relaciones sexuales naturales y transformar tu intimidad sin compromisos. Funda extraíble y lavable a máquina. Materiales duraderos garantizados para años de uso.</p>",
-            "page": ""
-          }
-        },
-        "tab_pUekDM": {
-          "type": "tab",
-          "settings": {
-            "title": "Pruébalo sin riesgo durante 30 días",
-            "content": "<p>30 días de uso sin riesgo: ¿No estás satisfecho? Simplemente devuélvelo; te reembolsaremos íntegramente.</p>",
-            "page": ""
-          }
-        },
-        "tab_UHqwjR": {
-          "type": "tab",
-          "settings": {
-            "title": "Envío gratuito directamente a tu domicilio",
-            "content": "<p>Envío a domicilio gratuito. Según el volumen del pedido, la entrega se realizará entre 5 y 8 días laborables después del envío.</p>",
-            "page": ""
-          }
-        },
-        "tab_JMK9W4": {
-          "type": "tab",
-          "settings": {
-            "title": "Atención al cliente 7/7",
-            "content": "<p><strong>Nuestro equipo está disponible los siete días de la semana para responder a todas tus preguntas.</strong></p><p>Puedes contactarnos por correo electrónico en el siguiente horario:</p><ul><li>De lunes a viernes, de 9:00 a 12:00 y de 14:00 a 18:00</li><li>Sábados y domingos, de 10:00 a 12:00</li></ul><p>No dudes en ponerte en contacto con nosotros.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_HCbMQy",
-        "tab_pUekDM",
-        "tab_UHqwjR",
-        "tab_JMK9W4"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "",
-        "text_alignment": "center",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "multiple_images_with_text_aKAhcn": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_pwPb6e": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "¿Por qué ya no pueden vivir el uno sin el otro?",
-            "content": "<p>Oveliz transforma tu intimidad gracias a la ciencia. Se acabaron las incomodidades, da paso al placer compartido. Recuperarás esa intimidad que acelera tu corazón y esa pasión que hace única tu relación.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_pwPb6e"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "multiple_images_with_text_UmEkbD": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_XGiCqw": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Posiciones que creías imposibles... ahora son posibles.",
-            "content": "<p>La almohada <strong>Oveliz</strong> libera los movimientos, equilibra delicadamente los ángulos y hace que cada posición sea fluida y natural. Misionero intenso, cowgirl sin esfuerzo, 69 cómodo, posiciones laterales sin dolor... y eso es solo el comienzo.</p><p>Con nuestro <strong>e-book exclusivo con 50 posiciones</strong>, descubrirás aún más formas de sorprender a tu pareja y reavivar la pasión.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_XGiCqw"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -656,17 +490,6 @@
         "accordion_text_color": ""
       }
     },
-    "1759158440451fe432": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_xA6qyP": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -679,32 +502,6 @@
         "background_gradient": "",
         "text_color": "#1a1a1a"
       }
-    },
-    "rich_text_qPWCQU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4EYAw8": {
-          "type": "heading",
-          "settings": {
-            "text": "Warum Snap Pro wählen?",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_4EYAw8"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -713,19 +510,12 @@
     "image_with_text_overlay_EHxx4W",
     "impact-text",
     "scroll_logo_VhKyJT",
+    "rich_text_qPWCQU",
     "slideshow_7UynMp",
     "before_after_image_qLDRdp",
     "image_with_text_overlay_L8em3h",
     "featured_product_9AVJWJ",
-    "multiple_images_with_text_ChEhyb",
-    "image_with_text_overlay_x8xCMm",
-    "multiple_images_with_text_zdGxi8",
-    "tabs_dgJUm6",
-    "multiple_images_with_text_aKAhcn",
-    "multiple_images_with_text_UmEkbD",
     "faq",
-    "1759158440451fe432",
-    "custom_liquid_xA6qyP",
-    "rich_text_qPWCQU"
+    "custom_liquid_xA6qyP"
   ]
 }
