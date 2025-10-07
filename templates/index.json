@@ -297,6 +297,110 @@
         "text_color": ""
       }
     },
+    "featured_product_faRhQa": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_f3THKL": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_abjqG4": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_EcxRHX": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_b3QiwU": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_jLf3Lj": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_WXKWgd": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_gtzJUr": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_W7Kpt3": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_RhV8d9": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_gGQjbJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_NPMtHU": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_f3THKL",
+        "title_abjqG4",
+        "badges_EcxRHX",
+        "price_b3QiwU",
+        "rating_jLf3Lj",
+        "separator_WXKWgd",
+        "description_gtzJUr",
+        "variant_picker_W7Kpt3",
+        "quantity_selector_RhV8d9",
+        "buy_buttons_gGQjbJ",
+        "pickup_availability_NPMtHU"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "klarpro-kamera-pov",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "custom_liquid_3aTAzK": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -566,6 +670,7 @@
     "slideshow_7UynMp",
     "custom_liquid_EPg6QM",
     "custom_liquid_MeFEfU",
+    "featured_product_faRhQa",
     "custom_liquid_3aTAzK",
     "before_after_image_qLDRdp",
     "image_with_text_overlay_L8em3h",
