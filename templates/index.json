@@ -271,6 +271,19 @@
         "background_gradient": ""
       }
     },
+    "custom_liquid_EPg6QM": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% comment %}\n  INSTRUCTIONS :\n  1. Remplacez l'URL de la vidéo ci-dessous par votre URL Shopify\n  2. Modifiez le texte selon vos besoins\n  3. Ajustez les couleurs si nécessaire\n{% endcomment %}\n\n{% assign video_url = \"VOTRE_URL_VIDEO_ICI\" %}\n{% assign heading = \"Entdecke KlarPro\" %}\n{% assign description = \"Halten Sie Ihre wertvollsten Momente in 4K mit immersiver POV-Sicht fest.\" %}\n{% assign button_text = \"Acheter Maintenant\" %}\n{% assign button_link = \"/products/klarpro\" %}\n\n<div class=\"custom-video-section\">\n  <div class=\"video-container\">\n    <div class=\"video-text-content\">\n      <h2 class=\"video-title\">{{ heading }}</h2>\n      <p class=\"video-desc\">{{ description }}</p>\n    </div>\n    \n    <div class=\"video-wrapper\">\n      <video \n        autoplay\n        loop\n        muted\n        playsinline\n        class=\"hero-video\"\n      >\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/72cd392c48b646a9b0b48dace5c5b746.mov\" type=\"video/mp4\">\n      </video>\n    </div>\n  </div>\n</div>\n\n<style>\n  .custom-video-section {\n    padding: 0;\n    margin: 0;\n    background: #000000;\n  }\n\n  .video-container {\n    max-width: 100%;\n    margin: 0;\n  }\n\n  .video-wrapper {\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    overflow: hidden;\n  }\n\n  .hero-video {\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0;\n  }\n\n  .video-text-content {\n    text-align: center;\n    padding: 20px 20px 15px 20px;\n    background: #ffffff;\n  }\n\n  .video-title {\n    font-size: 22px;\n    font-weight: 600;\n    margin-bottom: 8px;\n    color: #000000;\n  }\n\n  .video-desc {\n    font-size: 14px;\n    line-height: 1.4;\n    margin: 0;\n    color: #666666;\n    max-width: 600px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  @media (max-width: 768px) {\n    .custom-video-section {\n      padding: 0;\n    }\n    \n    .video-title {\n      font-size: 18px;\n    }\n    \n    .video-desc {\n      font-size: 13px;\n    }\n    \n    .video-text-content {\n      padding: 15px 15px 12px 15px;\n    }\n  }\n</style>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_3aTAzK": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -524,19 +537,6 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<img src=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1050\" alt=\"\" srcset=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=500 500w, //smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1000 1000w\" width=\"1050\" height=\"301\" loading=\"lazy\" style=\"width: 500px; margin-inline: auto\" sizes=\"500px\">",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_EPg6QM": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{% comment %}\n  INSTRUCTIONS :\n  1. Remplacez l'URL de la vidéo ci-dessous par votre URL Shopify\n  2. Modifiez le texte selon vos besoins\n  3. Ajustez les couleurs si nécessaire\n{% endcomment %}\n\n{% assign video_url = \"VOTRE_URL_VIDEO_ICI\" %}\n{% assign heading = \"Entdecke KlarPro\" %}\n{% assign description = \"Halten Sie Ihre wertvollsten Momente in 4K mit immersiver POV-Sicht fest.\" %}\n{% assign button_text = \"Acheter Maintenant\" %}\n{% assign button_link = \"/products/klarpro\" %}\n\n<div class=\"custom-video-section\">\n  <div class=\"video-container\">\n    <div class=\"video-text-content\">\n      <h2 class=\"video-title\">{{ heading }}</h2>\n      <p class=\"video-desc\">{{ description }}</p>\n    </div>\n    \n    <div class=\"video-wrapper\">\n      <video \n        autoplay\n        loop\n        muted\n        playsinline\n        class=\"hero-video\"\n      >\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/72cd392c48b646a9b0b48dace5c5b746.mov\" type=\"video/mp4\">\n      </video>\n    </div>\n  </div>\n</div>\n\n<style>\n  .custom-video-section {\n    padding: 0;\n    margin: 0;\n    background: #000000;\n  }\n\n  .video-container {\n    max-width: 100%;\n    margin: 0;\n  }\n\n  .video-wrapper {\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    overflow: hidden;\n  }\n\n  .hero-video {\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0;\n  }\n\n  .video-text-content {\n    text-align: center;\n    padding: 20px 20px 15px 20px;\n    background: #ffffff;\n  }\n\n  .video-title {\n    font-size: 22px;\n    font-weight: 600;\n    margin-bottom: 8px;\n    color: #000000;\n  }\n\n  .video-desc {\n    font-size: 14px;\n    line-height: 1.4;\n    margin: 0;\n    color: #666666;\n    max-width: 600px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n\n  @media (max-width: 768px) {\n    .custom-video-section {\n      padding: 0;\n    }\n    \n    .video-title {\n      font-size: 18px;\n    }\n    \n    .video-desc {\n      font-size: 13px;\n    }\n    \n    .video-text-content {\n      padding: 15px 15px 12px 15px;\n    }\n  }\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
