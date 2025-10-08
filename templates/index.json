@@ -447,6 +447,12 @@
             "max_width": 500
           }
         },
+        "text_R4aNF7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "liquid_4h4qDq": {
           "type": "liquid",
           "settings": {
@@ -476,6 +482,7 @@
         "collapsible_text_DEm9QJ",
         "collapsible_text_rE9bNJ",
         "image_89pHXk",
+        "text_R4aNF7",
         "liquid_4h4qDq"
       ],
       "name": "Featured product",
