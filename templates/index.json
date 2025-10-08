@@ -504,6 +504,94 @@
         "input_text_color": ""
       }
     },
+    "impact_text_mfVmJg": {
+      "type": "impact-text",
+      "blocks": {
+        "item_6ncxUk": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "Premium-Zubehör für jede Situation",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_6ncxUk"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_pYUfTj": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_GWqFU4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5039.gif",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Wasserdichtes Gehäuse (Bis zu 30 m Tiefe)",
+            "content": ""
+          }
+        },
+        "item_6gGtLh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5040_1.gif",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Fahrradhalterung",
+            "content": ""
+          }
+        },
+        "item_9WyjkQ": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_GWqFU4",
+        "item_6gGtLh",
+        "item_9WyjkQ"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "custom_liquid_3aTAzK": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -515,173 +603,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "before_after_image_qLDRdp": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "El Salvador de relaciones",
-        "content": "<p>Conoces demasiado bien esta situación y, sinceramente, el dolor del rechazo es profundo. El ambiente en la cama está por los suelos y, aparte de decirse ‘buenas noches’, ya no tienen nada más que decirse… ¡Eso se acabó ahora!</p>",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Antes",
-        "after_text": "Después",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
-    "image_with_text_overlay_L8em3h": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "featured_product_9AVJWJ": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_gjbJqX": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {}
-        },
-        "title_bteaPT": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges_CLLe68": {
-          "type": "badges",
-          "settings": {}
-        },
-        "liquid_393hVX": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmg5gapzs003kuqyesr1b348g\"></div>"
-          }
-        },
-        "price_6daTy6": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_NJcm4J": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_G8qDpQ": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_AVe9WK": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "liquid_cjgXUE": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.stock-alert {\n  display: inline-flex;\n  align-items: center;\n  background-color: #ffe5e5;\n  color: #b30000;\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-weight: 600;\n  font-size: 14px;\n}\n\n.stock-dot {\n  height: 8px;\n  width: 8px;\n  background-color: red;\n  border-radius: 50%;\n  margin-right: 8px;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 50%, 100% { opacity: 1; }\n  25%, 75% { opacity: 0; }\n}\n</style>\n\n<div class=\"stock-alert\">\n  <span class=\"stock-dot\"></span>\n  Stock limitado: 6 unidades\n</div>"
-          }
-        },
-        "variant_picker_Eq8kFa": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_ApzX9y": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "liquid_Ga9yMb": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"payment-badges\">\n  <p>Paga de forma segura con:</p>\n  <ul class=\"payment-icons\">\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png\" alt=\"Mastercard\"></li>\n    <li><img src=\"https://1000marcas.net/wp-content/uploads/2020/03/American-Express-Logo.png\" alt=\"American Express\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg\" alt=\"Apple Pay\"></li>\n    <li><img src=\"https://logo.svgcdn.com/l/google-pay.png\" alt=\"Google Pay\"></li>\n  </ul>\n</div>\n\n<style>\n.payment-badges {\n  text-align: center;\n  margin-top: 20px;\n}\n\n.payment-icons {\n  list-style: none;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-wrap: wrap;\n  align-items: center;\n  margin-top: 10px;\n}\n\n.payment-icons li img {\n  height: 30px;\n  max-width: 60px;\n  object-fit: contain;\n}\n</style>"
-          }
-        },
-        "buy_buttons_Whbnyw": {
-          "type": "buy_buttons",
-          "name": "Añadir a la cesta",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#22b725",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_thkr4Q": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "vendor_gjbJqX",
-        "title_bteaPT",
-        "badges_CLLe68",
-        "liquid_393hVX",
-        "price_6daTy6",
-        "rating_NJcm4J",
-        "separator_G8qDpQ",
-        "description_AVe9WK",
-        "liquid_cjgXUE",
-        "variant_picker_Eq8kFa",
-        "quantity_selector_ApzX9y",
-        "liquid_Ga9yMb",
-        "buy_buttons_Whbnyw",
-        "pickup_availability_thkr4Q"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "cojin-oveliz",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "faq": {
@@ -774,10 +695,9 @@
     "custom_liquid_EPg6QM",
     "custom_liquid_MeFEfU",
     "featured_product_faRhQa",
+    "impact_text_mfVmJg",
+    "images_with_text_scrolling_pYUfTj",
     "custom_liquid_3aTAzK",
-    "before_after_image_qLDRdp",
-    "image_with_text_overlay_L8em3h",
-    "featured_product_9AVJWJ",
     "faq",
     "custom_liquid_xA6qyP",
     "custom_liquid_FFqaQf"
