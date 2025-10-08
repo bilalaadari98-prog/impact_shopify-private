@@ -566,10 +566,11 @@
         "item_9WyjkQ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_5041.gif",
             "icon": "none",
             "icon_width": 48,
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "title": "360° Clip",
+            "content": ""
           }
         }
       },
