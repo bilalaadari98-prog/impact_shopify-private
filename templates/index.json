@@ -398,6 +398,46 @@
           "settings": {
             "liquid": "<div class=\"payment-badges\">\n  <p>Bezahlen Sie sicher mit:</p>\n  <ul class=\"payment-icons\">\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png\" alt=\"Mastercard\"></li>\n    <li><img src=\"https://1000marcas.net/wp-content/uploads/2020/03/American-Express-Logo.png\" alt=\"American Express\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg\" alt=\"Apple Pay\"></li>\n    <li><img src=\"https://logo.svgcdn.com/l/google-pay.png\" alt=\"Google Pay\"></li>\n  </ul>\n</div>\n<style>\n.payment-badges {\n  text-align: center;\n  margin-top: 20px;\n}\n.payment-icons {\n  list-style: none;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-wrap: wrap;\n  align-items: center;\n  margin-top: 10px;\n}\n.payment-icons li img {\n  height: 30px;\n  max-width: 60px;\n  object-fit: contain;\n}\n</style>"
           }
+        },
+        "collapsible_text_LPqFkJ": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Description",
+            "content": "<p>KLARPRO – die ultimative POV 4K UHD Freisprechkamera, entwickelt für Abenteuer, Action und den Alltag. Dank ihres ultraleichten und tragbaren Designs ermöglicht Ihnen SKYPRO, jeden Moment mühelos festzuhalten, egal ob beim Radfahren, Vloggen oder beim Erkunden neuer Orte.</p><p>Ausgestattet mit verbesserter KI-Stabilisierung, kristallklarer Audioaufnahme, einem Ultraweitwinkel und Sprachsteuerung bietet sie flüssige und immersive Videos, ohne dass Sie einen Finger rühren müssen.</p><p>Robust, wasserdicht und für alle Umgebungen konzipiert, verfügt sie über integriertes WLAN und Bluetooth für sofortiges Teilen.</p><p>Clipen Sie sie an, befestigen Sie sie, erleben Sie die Action! SKYPRO – Ihre Welt in Bewegung.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_MVwMYm": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Was ist im Lieferumfang enthalten?",
+            "content": "<h3><strong>Im Lieferumfang enthalten: KLARPRO HD oder 4K Kamera</strong></h3><ul><li>POV Pro Kamera</li><li>Magnetischer Nackenbügel</li><li>USB-C Ladekabel</li><li>Bedienungsanleitung</li></ul><p>🎁 <strong>KOSTENLOS bei Bestellung vor Mitternacht: SKYPRO KOMPLETT-Zubehörpaket</strong></p><ul><li>Helmhalterung</li><li>Rahmen</li><li>Montagebasis</li><li>Wasserdichtes Gehäuse (WATERPROOF)</li><li>Seitliche Halterung</li><li>Lenkerhalterung</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_text_DEm9QJ": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Technische Daten",
+            "content": "<p>Freisprech-Aufnahme in 4K UHD (3840×2160 Pixel) oder FHD 1080p je nach gewählter Version</p><p>Ultraweitwinkel-Objektiv 120° (Weitwinkel- oder Normalmodus)</p><p>Erweiterte elektronische Stabilisierung + klare Audioaufnahme (AAC/MP3) integriert</p><p>Ultrakompakt & tragbar: nur 64,5 × 28 × 20 mm, Mini-Format mit Clip & Magnet</p><p>360° Magnetbefestigung + schwenkbarer Clip für maximale Flexibilität</p><p>Akkulaufzeit bis zu 3 Stunden (800 mAh Akku), Aufladung in ~30 Min, Aufnahme während des Ladens möglich</p><p>Wasserdicht bis 30 m mit wasserdichtem Gehäuse</p><p>Kompatibel mit micro-SD bis zu 256 GB</p><p>Betriebstemperatur: -10°C bis 60°C</p><p>Video-Loop-Funktion (Schleifenaufzeichnung) für kontinuierliche Nutzung</p><p>WLAN & Bluetooth-Konnektivität für sofortigen Transfer über mobile App</p><p>2 Jahre Garantie + einfache Rückgabe innerhalb von 30 Tagen</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_rE9bNJ": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Welche Version wählen: Full HD oder 4K UHD?",
+            "content": "<p>Die <strong>4K UHD Version</strong> bietet eine 4-mal höhere Auflösung als Full HD (1080p), nämlich <strong>3840 × 2160 Pixel</strong> gegenüber <strong>1920 × 1080</strong>. Diese Präzision ermöglicht die Erfassung von <strong>mehr Details</strong>, <strong>schärfere Bilder</strong> und eine bessere Darstellung, selbst bei schnellen Bewegungen oder bei schwachem Licht.</p><p>Die <strong>1080p Version</strong> bleibt für den Basisgebrauch geeignet, aber wenn Bildqualität eine Priorität ist, ist die 4K eindeutig die empfohlene Option.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -416,7 +456,11 @@
         "buy_buttons_gGQjbJ",
         "pickup_availability_NPMtHU",
         "payment_terms_LnpxJ7",
-        "liquid_nimrtQ"
+        "liquid_nimrtQ",
+        "collapsible_text_LPqFkJ",
+        "collapsible_text_MVwMYm",
+        "collapsible_text_DEm9QJ",
+        "collapsible_text_rE9bNJ"
       ],
       "name": "Featured product",
       "settings": {
