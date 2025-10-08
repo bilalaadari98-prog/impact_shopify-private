@@ -438,6 +438,14 @@
             "content": "<p>Die <strong>4K UHD Version</strong> bietet eine 4-mal höhere Auflösung als Full HD (1080p), nämlich <strong>3840 × 2160 Pixel</strong> gegenüber <strong>1920 × 1080</strong>. Diese Präzision ermöglicht die Erfassung von <strong>mehr Details</strong>, <strong>schärfere Bilder</strong> und eine bessere Darstellung, selbst bei schnellen Bewegungen oder bei schwachem Licht.</p><p>Die <strong>1080p Version</strong> bleibt für den Basisgebrauch geeignet, aber wenn Bildqualität eine Priorität ist, ist die 4K eindeutig die empfohlene Option.</p>",
             "page": ""
           }
+        },
+        "image_89pHXk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Ajouter_un_sous-titre_6.png",
+            "alignment": "start",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
@@ -460,7 +468,8 @@
         "collapsible_text_LPqFkJ",
         "collapsible_text_MVwMYm",
         "collapsible_text_DEm9QJ",
-        "collapsible_text_rE9bNJ"
+        "collapsible_text_rE9bNJ",
+        "image_89pHXk"
       ],
       "name": "Featured product",
       "settings": {
