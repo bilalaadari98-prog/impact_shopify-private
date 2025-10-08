@@ -543,6 +543,16 @@
     "images_with_text_scrolling_pYUfTj": {
       "type": "images-with-text-scrolling",
       "blocks": {
+        "item_wRVH8X": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5043_1.gif",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Magnetischer Nackenbügel",
+            "content": ""
+          }
+        },
         "item_GWqFU4": {
           "type": "item",
           "settings": {
@@ -572,12 +582,24 @@
             "title": "360° Clip",
             "content": ""
           }
+        },
+        "item_FM8FUV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5042.gif",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Helmhalterung",
+            "content": ""
+          }
         }
       },
       "block_order": [
+        "item_wRVH8X",
         "item_GWqFU4",
         "item_6gGtLh",
-        "item_9WyjkQ"
+        "item_9WyjkQ",
+        "item_FM8FUV"
       ],
       "name": "Images and text scrolling",
       "settings": {
