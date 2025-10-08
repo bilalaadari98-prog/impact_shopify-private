@@ -369,6 +369,16 @@
           "type": "pickup_availability",
           "settings": {}
         },
+        "payment_terms_LnpxJ7": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "liquid_nimrtQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"payment-badges\">\n  <p>Bezahlen Sie sicher mit:</p>\n  <ul class=\"payment-icons\">\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png\" alt=\"Mastercard\"></li>\n    <li><img src=\"https://1000marcas.net/wp-content/uploads/2020/03/American-Express-Logo.png\" alt=\"American Express\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg\" alt=\"Apple Pay\"></li>\n    <li><img src=\"https://logo.svgcdn.com/l/google-pay.png\" alt=\"Google Pay\"></li>\n  </ul>\n</div>\n<style>\n.payment-badges {\n  text-align: center;\n  margin-top: 20px;\n}\n.payment-icons {\n  list-style: none;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-wrap: wrap;\n  align-items: center;\n  margin-top: 10px;\n}\n.payment-icons li img {\n  height: 30px;\n  max-width: 60px;\n  object-fit: contain;\n}\n</style>"
+          }
+        },
         "image_xByUgC": {
           "type": "image",
           "settings": {
@@ -396,6 +406,8 @@
         "quantity_selector_RhV8d9",
         "buy_buttons_gGQjbJ",
         "pickup_availability_NPMtHU",
+        "payment_terms_LnpxJ7",
+        "liquid_nimrtQ",
         "image_xByUgC",
         "liquid_MRAyaE"
       ],
