@@ -300,6 +300,12 @@
     "featured_product_faRhQa": {
       "type": "featured-product",
       "blocks": {
+        "liquid_FzLkGm": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"gift-stat\">\n  <p>7 von 10 Kunden schenken einen KlarPro an einen Verwandten oder Freund</p>\n</div>\n\n<style>\n.gift-stat {\n  background: #f8f9fa;\n  border-left: 4px solid #28a745;\n  padding: 15px 20px;\n  margin: 20px 0;\n  border-radius: 5px;\n  text-align: center;\n}\n\n.gift-stat p {\n  color: #333;\n  font-size: 1.1em;\n  font-weight: 500;\n  margin: 0;\n}\n\n.gift-stat p::before {\n  content: \"🎁 \";\n  margin-right: 8px;\n}\n</style>"
+          }
+        },
         "vendor_f3THKL": {
           "type": "vendor",
           "disabled": true,
@@ -354,6 +360,20 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "image_xByUgC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wasserdichtes_Gehause.png",
+            "alignment": "center",
+            "max_width": 470
+          }
+        },
+        "liquid_MRAyaE": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Flash-Angebot Timer</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Arial', sans-serif;\n            background: #f5f5f5;\n            padding: 20px;\n        }\n\n        .flash-timer {\n            background: white;\n            border-radius: 15px;\n            padding: 25px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n            max-width: 400px;\n            text-align: center;\n        }\n\n        .header {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            gap: 10px;\n            margin-bottom: 15px;\n        }\n\n        .gift-icon {\n            font-size: 2em;\n        }\n\n        .title {\n            color: #333;\n            font-size: 1.5em;\n            font-weight: bold;\n        }\n\n        .subtitle {\n            color: #555;\n            font-size: 0.95em;\n            margin-bottom: 20px;\n            line-height: 1.4;\n        }\n\n        .timer-display {\n            display: flex;\n            justify-content: center;\n            gap: 8px;\n            font-size: 2.5em;\n            font-weight: bold;\n            color: #333;\n            margin-bottom: 10px;\n        }\n\n        .time-unit {\n            min-width: 50px;\n        }\n\n        .separator {\n            color: #999;\n        }\n\n        .labels {\n            display: flex;\n            justify-content: center;\n            gap: 35px;\n            color: #999;\n            font-size: 0.85em;\n        }\n\n        .label {\n            min-width: 50px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"flash-timer\">\n        <div class=\"header\">\n            <span class=\"gift-icon\">🎁</span>\n            <span class=\"title\">Flash-Angebot: 4 Zubehörteile KOSTENLOS</span>\n        </div>\n        \n        <div class=\"subtitle\">\n            Bestellen Sie jetzt vor Ablauf der Zeit:\n        </div>\n\n        <div class=\"timer-display\">\n            <span class=\"time-unit\" id=\"days\">00</span>\n            <span class=\"separator\">:</span>\n            <span class=\"time-unit\" id=\"hours\">00</span>\n            <span class=\"separator\">:</span>\n            <span class=\"time-unit\" id=\"minutes\">05</span>\n            <span class=\"separator\">:</span>\n            <span class=\"time-unit\" id=\"seconds\">00</span>\n        </div>\n\n        <div class=\"labels\">\n            <span class=\"label\">Tage</span>\n            <span class=\"label\">Std</span>\n            <span class=\"label\">Min</span>\n            <span class=\"label\">Sek</span>\n        </div>\n    </div>\n\n    <script>\n        let totalSeconds = 5 * 60;\n\n        function updateTimer() {\n            const days = Math.floor(totalSeconds / 86400);\n            const hours = Math.floor((totalSeconds % 86400) / 3600);\n            const minutes = Math.floor((totalSeconds % 3600) / 60);\n            const seconds = totalSeconds % 60;\n\n            document.getElementById('days').textContent = String(days).padStart(2, '0');\n            document.getElementById('hours').textContent = String(hours).padStart(2, '0');\n            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');\n            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');\n\n            if (totalSeconds === 0) {\n                totalSeconds = 5 * 60;\n            } else {\n                totalSeconds--;\n            }\n        }\n\n        updateTimer();\n        const timerInterval = setInterval(updateTimer, 1000);\n    </script>\n</body>\n</html>"
+          }
+        },
         "buy_buttons_gGQjbJ": {
           "type": "buy_buttons",
           "settings": {
@@ -378,23 +398,10 @@
           "settings": {
             "liquid": "<div class=\"payment-badges\">\n  <p>Bezahlen Sie sicher mit:</p>\n  <ul class=\"payment-icons\">\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png\" alt=\"Visa\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png\" alt=\"Mastercard\"></li>\n    <li><img src=\"https://1000marcas.net/wp-content/uploads/2020/03/American-Express-Logo.png\" alt=\"American Express\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg\" alt=\"PayPal\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg\" alt=\"Apple Pay\"></li>\n    <li><img src=\"https://logo.svgcdn.com/l/google-pay.png\" alt=\"Google Pay\"></li>\n  </ul>\n</div>\n<style>\n.payment-badges {\n  text-align: center;\n  margin-top: 20px;\n}\n.payment-icons {\n  list-style: none;\n  padding: 0;\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-wrap: wrap;\n  align-items: center;\n  margin-top: 10px;\n}\n.payment-icons li img {\n  height: 30px;\n  max-width: 60px;\n  object-fit: contain;\n}\n</style>"
           }
-        },
-        "image_xByUgC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Wasserdichtes_Gehause.png",
-            "alignment": "center",
-            "max_width": 470
-          }
-        },
-        "liquid_MRAyaE": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Flash-Angebot Timer</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: 'Arial', sans-serif;\n            background: #f5f5f5;\n            padding: 20px;\n        }\n\n        .flash-timer {\n            background: white;\n            border-radius: 15px;\n            padding: 25px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n            max-width: 400px;\n            text-align: center;\n        }\n\n        .header {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            gap: 10px;\n            margin-bottom: 15px;\n        }\n\n        .gift-icon {\n            font-size: 2em;\n        }\n\n        .title {\n            color: #333;\n            font-size: 1.5em;\n            font-weight: bold;\n        }\n\n        .subtitle {\n            color: #555;\n            font-size: 0.95em;\n            margin-bottom: 20px;\n            line-height: 1.4;\n        }\n\n        .timer-display {\n            display: flex;\n            justify-content: center;\n            gap: 8px;\n            font-size: 2.5em;\n            font-weight: bold;\n            color: #333;\n            margin-bottom: 10px;\n        }\n\n        .time-unit {\n            min-width: 50px;\n        }\n\n        .separator {\n            color: #999;\n        }\n\n        .labels {\n            display: flex;\n            justify-content: center;\n            gap: 35px;\n            color: #999;\n            font-size: 0.85em;\n        }\n\n        .label {\n            min-width: 50px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"flash-timer\">\n        <div class=\"header\">\n            <span class=\"gift-icon\">🎁</span>\n            <span class=\"title\">Flash-Angebot: 4 Zubehörteile KOSTENLOS</span>\n        </div>\n        \n        <div class=\"subtitle\">\n            Bestellen Sie jetzt vor Ablauf der Zeit:\n        </div>\n\n        <div class=\"timer-display\">\n            <span class=\"time-unit\" id=\"days\">00</span>\n            <span class=\"separator\">:</span>\n            <span class=\"time-unit\" id=\"hours\">00</span>\n            <span class=\"separator\">:</span>\n            <span class=\"time-unit\" id=\"minutes\">05</span>\n            <span class=\"separator\">:</span>\n            <span class=\"time-unit\" id=\"seconds\">00</span>\n        </div>\n\n        <div class=\"labels\">\n            <span class=\"label\">Tage</span>\n            <span class=\"label\">Std</span>\n            <span class=\"label\">Min</span>\n            <span class=\"label\">Sek</span>\n        </div>\n    </div>\n\n    <script>\n        let totalSeconds = 5 * 60;\n\n        function updateTimer() {\n            const days = Math.floor(totalSeconds / 86400);\n            const hours = Math.floor((totalSeconds % 86400) / 3600);\n            const minutes = Math.floor((totalSeconds % 3600) / 60);\n            const seconds = totalSeconds % 60;\n\n            document.getElementById('days').textContent = String(days).padStart(2, '0');\n            document.getElementById('hours').textContent = String(hours).padStart(2, '0');\n            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');\n            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');\n\n            if (totalSeconds === 0) {\n                totalSeconds = 5 * 60;\n            } else {\n                totalSeconds--;\n            }\n        }\n\n        updateTimer();\n        const timerInterval = setInterval(updateTimer, 1000);\n    </script>\n</body>\n</html>"
-          }
         }
       },
       "block_order": [
+        "liquid_FzLkGm",
         "vendor_f3THKL",
         "title_abjqG4",
         "badges_EcxRHX",
@@ -404,12 +411,12 @@
         "description_gtzJUr",
         "variant_picker_W7Kpt3",
         "quantity_selector_RhV8d9",
+        "image_xByUgC",
+        "liquid_MRAyaE",
         "buy_buttons_gGQjbJ",
         "pickup_availability_NPMtHU",
         "payment_terms_LnpxJ7",
-        "liquid_nimrtQ",
-        "image_xByUgC",
-        "liquid_MRAyaE"
+        "liquid_nimrtQ"
       ],
       "name": "Featured product",
       "settings": {
