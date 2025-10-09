@@ -641,6 +641,45 @@
         "text_color": ""
       }
     },
+    "custom_liquid_xA6qyP": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"background-color: #f3f3f3; padding: 2rem 0; text-align: center;\">\n  <h2 style=\"font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;\">\n    Nuestros Clientes Hablan de nosotros\n  </h2>\n\n  <div style=\"font-size: 1.2rem; margin-bottom: 0.5rem; display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap;\">\n    <span>Excelente <strong>4.7 / 5</strong></span>\n\n    <!-- Image Trustpilot pour 4.5 étoiles -->\n    <img\n      src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\"\n      alt=\"4.7 étoiles\"\n      style=\"height: 24px; width: auto; vertical-align: middle;\"\n    >\n  </div>\n\n  <div style=\"font-size: 1rem; color: #000; display: flex; justify-content: center; align-items: center; gap: 6px;\">\n    <span>basado sobre <span style=\"text-decoration: underline;\"><strong>+600</strong></span> reseñas</span>\n\n    <!-- Logo Trustpilot officiel -->\n    <span style=\"display: flex; align-items: center; gap: 4px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\">\n        <path fill=\"#00B67A\" d=\"M12 .587l3.668 7.568 8.332 1.151-6.001 5.837 1.417 8.293L12 18.896l-7.416 4.54 1.417-8.293-6.001-5.837 8.332-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: 500;\">Trustpilot</span>\n    </span>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "custom_liquid_Ra83yA": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>EIS Stabilisation Section</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;\n            background: #f5f5f5;\n        }\n\n        .eis-section {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            padding: 30px 20px;\n            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);\n        }\n\n        .eis-container {\n            display: flex;\n            flex-direction: column;\n            gap: 30px;\n            max-width: 600px;\n            width: 100%;\n            align-items: center;\n        }\n\n        .video-wrapper {\n            position: relative;\n            width: 280px;\n            height: 498px;\n            border-radius: 20px;\n            overflow: hidden;\n            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);\n            background: #000;\n        }\n\n        .video-wrapper video {\n            width: 100%;\n            height: 100%;\n            object-fit: cover;\n            display: block;\n        }\n\n        .content-wrapper {\n            padding: 10px;\n            text-align: center;\n        }\n\n        .content-wrapper h2 {\n            font-size: clamp(18px, 2.5vw, 26px);\n            font-weight: 700;\n            color: #1a1a1a;\n            line-height: 1.4;\n            margin-bottom: 15px;\n        }\n\n        .highlight {\n            display: inline-block;\n            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);\n            color: white;\n            padding: 6px 18px;\n            border-radius: 50px;\n            font-size: clamp(16px, 2.2vw, 22px);\n            font-weight: 800;\n            margin-top: 8px;\n            box-shadow: 0 4px 15px rgba(0, 153, 255, 0.3);\n            transform: rotate(-1deg);\n        }\n\n        @media (max-width: 768px) {\n            .eis-container {\n                gap: 25px;\n                max-width: 400px;\n            }\n\n            .video-wrapper {\n                width: 100%;\n                max-width: 320px;\n                height: 568px;\n            }\n        }\n\n        @media (max-width: 480px) {\n            .eis-section {\n                padding: 20px 15px;\n            }\n\n            .video-wrapper {\n                height: 480px;\n            }\n\n            .content-wrapper h2 {\n                margin-bottom: 10px;\n            }\n\n            .highlight {\n                padding: 5px 14px;\n                margin-top: 6px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <section class=\"eis-section\">\n        <div class=\"eis-container\">\n            <div class=\"video-wrapper\">\n                <video autoplay muted loop playsinline>\n                    <source src=\"https://cdn.shopify.com/videos/c/o/v/aded9a40eb774182b0df8393e5db66f3.mov\" type=\"video/mp4\">\n                    Ihr Browser unterstützt das Video-Tag nicht.\n                </video>\n            </div>\n            \n            <div class=\"content-wrapper\">\n                <h2>\n                    Ausgestattet mit fortschrittlicher elektronischer Bildstabilisierung (EIS) für gestochen scharfe, verwacklungsfreie Videos\n                    <span class=\"highlight\">auch bei extremsten Aktivitäten</span>\n                </h2>\n            </div>\n        </div>\n    </section>\n</body>\n</html>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_FFqaQf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<img src=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1050\" alt=\"\" srcset=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=500 500w, //smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1000 1000w\" width=\"1050\" height=\"301\" loading=\"lazy\" style=\"width: 500px; margin-inline: auto\" sizes=\"500px\">",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -692,45 +731,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "custom_liquid_xA6qyP": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"background-color: #f3f3f3; padding: 2rem 0; text-align: center;\">\n  <h2 style=\"font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;\">\n    Nuestros Clientes Hablan de nosotros\n  </h2>\n\n  <div style=\"font-size: 1.2rem; margin-bottom: 0.5rem; display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap;\">\n    <span>Excelente <strong>4.7 / 5</strong></span>\n\n    <!-- Image Trustpilot pour 4.5 étoiles -->\n    <img\n      src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\"\n      alt=\"4.7 étoiles\"\n      style=\"height: 24px; width: auto; vertical-align: middle;\"\n    >\n  </div>\n\n  <div style=\"font-size: 1rem; color: #000; display: flex; justify-content: center; align-items: center; gap: 6px;\">\n    <span>basado sobre <span style=\"text-decoration: underline;\"><strong>+600</strong></span> reseñas</span>\n\n    <!-- Logo Trustpilot officiel -->\n    <span style=\"display: flex; align-items: center; gap: 4px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\">\n        <path fill=\"#00B67A\" d=\"M12 .587l3.668 7.568 8.332 1.151-6.001 5.837 1.417 8.293L12 18.896l-7.416 4.54 1.417-8.293-6.001-5.837 8.332-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: 500;\">Trustpilot</span>\n    </span>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
-      }
-    },
-    "custom_liquid_Ra83yA": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>EIS Stabilisation Section</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;\n            background: #f5f5f5;\n        }\n\n        .eis-section {\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            padding: 30px 20px;\n            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);\n        }\n\n        .eis-container {\n            display: flex;\n            flex-direction: column;\n            gap: 30px;\n            max-width: 600px;\n            width: 100%;\n            align-items: center;\n        }\n\n        .video-wrapper {\n            position: relative;\n            width: 280px;\n            height: 498px;\n            border-radius: 20px;\n            overflow: hidden;\n            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);\n            background: #000;\n        }\n\n        .video-wrapper video {\n            width: 100%;\n            height: 100%;\n            object-fit: cover;\n            display: block;\n        }\n\n        .content-wrapper {\n            padding: 10px;\n            text-align: center;\n        }\n\n        .content-wrapper h2 {\n            font-size: clamp(18px, 2.5vw, 26px);\n            font-weight: 700;\n            color: #1a1a1a;\n            line-height: 1.4;\n            margin-bottom: 15px;\n        }\n\n        .highlight {\n            display: inline-block;\n            background: linear-gradient(135deg, #00d4ff 0%, #0099ff 100%);\n            color: white;\n            padding: 6px 18px;\n            border-radius: 50px;\n            font-size: clamp(16px, 2.2vw, 22px);\n            font-weight: 800;\n            margin-top: 8px;\n            box-shadow: 0 4px 15px rgba(0, 153, 255, 0.3);\n            transform: rotate(-1deg);\n        }\n\n        @media (max-width: 768px) {\n            .eis-container {\n                gap: 25px;\n                max-width: 400px;\n            }\n\n            .video-wrapper {\n                width: 100%;\n                max-width: 320px;\n                height: 568px;\n            }\n        }\n\n        @media (max-width: 480px) {\n            .eis-section {\n                padding: 20px 15px;\n            }\n\n            .video-wrapper {\n                height: 480px;\n            }\n\n            .content-wrapper h2 {\n                margin-bottom: 10px;\n            }\n\n            .highlight {\n                padding: 5px 14px;\n                margin-top: 6px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <section class=\"eis-section\">\n        <div class=\"eis-container\">\n            <div class=\"video-wrapper\">\n                <video autoplay muted loop playsinline>\n                    <source src=\"https://cdn.shopify.com/videos/c/o/v/aded9a40eb774182b0df8393e5db66f3.mov\" type=\"video/mp4\">\n                    Ihr Browser unterstützt das Video-Tag nicht.\n                </video>\n            </div>\n            \n            <div class=\"content-wrapper\">\n                <h2>\n                    Ausgestattet mit fortschrittlicher elektronischer Bildstabilisierung (EIS) für gestochen scharfe, verwacklungsfreie Videos\n                    <span class=\"highlight\">auch bei extremsten Aktivitäten</span>\n                </h2>\n            </div>\n        </div>\n    </section>\n</body>\n</html>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_FFqaQf": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<img src=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1050\" alt=\"\" srcset=\"//smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=500 500w, //smilebrushy.com/cdn/shop/files/Sans_titre_600_x_172_px_6.png?v=1757163433&amp;width=1000 1000w\" width=\"1050\" height=\"301\" loading=\"lazy\" style=\"width: 500px; margin-inline: auto\" sizes=\"500px\">",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -742,15 +742,15 @@
     "rich_text_qPWCQU",
     "slideshow_7UynMp",
     "custom_liquid_EPg6QM",
+    "custom_liquid_xA6qyP",
     "custom_liquid_MeFEfU",
     "featured_product_faRhQa",
     "impact_text_mfVmJg",
     "images_with_text_scrolling_pYUfTj",
     "custom_liquid_Bh4dam",
-    "custom_liquid_3aTAzK",
-    "faq",
-    "custom_liquid_xA6qyP",
     "custom_liquid_Ra83yA",
-    "custom_liquid_FFqaQf"
+    "custom_liquid_FFqaQf",
+    "faq",
+    "custom_liquid_3aTAzK"
   ]
 }
