@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "page": "Seite {{ page }}",
@@ -86,7 +95,7 @@
       "view_in_space": "In deinem Bereich ansehen",
       "taxes_included": "inkl. MwSt.",
       "taxes_excluded": "zzgl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten<\/a> werden an der Kasse berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden an der Kasse berechnet",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
@@ -428,6 +437,77 @@
         "zero": "Dieses Produkt hat noch keine Bewertungen.",
         "one": "Es hat {{ count }} Bewertung erhalten.",
         "other": "Es hat {{ count }} Bewertungen erhalten."
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "image_gallery": {
+        "load_more_items": {
+          "many": "{{count}} weitere Artikel laden"
+        }
+      }
+    },
+    "B2B": {
+      "orders": {
+        "draft_order_list": {
+          "pending_tab_accessibility_label": {
+            "pending_orders": {
+              "many": "Sie haben {{count}} ausstehende Bestellungen"
+            }
+          }
+        }
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "many": "Sie sind mit Ihrer Zahlung {{count}} Tage im Rückstand."
+            },
+            "banner_due": {
+              "many": "Ihre Zahlung ist in {{count}} Tagen fällig"
+            }
+          }
+        }
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "many": "Es gibt {{count}} Fehler"
+      }
+    },
+    "ui_components": {
+      "autocompleteOptionsAvailable": {
+        "many": "{{count}} Artikel verfügbar"
+      },
+      "month": {
+        "many": "Monat"
+      },
+      "mapClusterTitle": {
+        "many": "Cluster von {{number}} -Markierungen"
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "many": "vor {{count}} Minuten"
+        }
+      }
+    },
+    "subscriptions": {
+      "subscription_contracts": {
+        "more_items": {
+          "many": "und {{count}} weitere Produkte"
+        },
+        "product_count": {
+          "many": "{{count}} Produkte"
+        }
+      },
+      "updating_contracts": {
+        "many": "{{count}} Abonnementverträge werden aktualisiert …"
+      },
+      "contracts_updated": {
+        "many": "{{count}} Abonnementverträge erfolgreich aktualisiert"
       }
     }
   }
