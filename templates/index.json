@@ -287,7 +287,6 @@
     },
     "custom_liquid_xA6qyP": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -301,6 +300,7 @@
     },
     "custom_liquid_MeFEfU": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -309,6 +309,82 @@
         "liquid": "<!DOCTYPE html>\n<html lang=\"de\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Kundenbewertungen</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        .testimonials-section {\n            width: 100%;\n            padding: 60px 0;\n            background: #fff;\n            overflow: hidden;\n        }\n\n        .section-header {\n            text-align: center;\n            margin-bottom: 40px;\n            padding: 0 20px;\n        }\n\n        .section-header h2 {\n            font-size: 32px;\n            font-weight: 700;\n            color: #1a1a1a;\n            margin-bottom: 20px;\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;\n        }\n\n        .rating-badge {\n            display: inline-flex;\n            align-items: center;\n            gap: 12px;\n            background: #f8f8f8;\n            padding: 15px 30px;\n            border-radius: 50px;\n        }\n\n        .stars {\n            color: #00b67a;\n            font-size: 22px;\n            letter-spacing: 3px;\n        }\n\n        .rating-text {\n            font-size: 15px;\n            color: #666;\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;\n        }\n\n        .rating-score {\n            font-weight: 700;\n            color: #1a1a1a;\n        }\n\n        .carousel-wrapper {\n            width: 100%;\n            position: relative;\n            padding: 0 60px;\n        }\n\n        .carousel-container {\n            width: 100%;\n            overflow: hidden;\n        }\n\n        .carousel-track {\n            display: flex;\n            gap: 25px;\n            transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n            padding: 10px 0;\n        }\n\n        .testimonial-card {\n            flex: 0 0 350px;\n            background: #f8f8f8;\n            border-radius: 20px;\n            padding: 25px;\n            display: flex;\n            flex-direction: column;\n            gap: 18px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);\n        }\n\n        .video-wrapper {\n            width: 100%;\n            height: 500px;\n            border-radius: 16px;\n            overflow: hidden;\n            background: #000;\n        }\n\n        .video-wrapper video {\n            width: 100%;\n            height: 100%;\n            object-fit: cover;\n            display: block;\n        }\n\n        .card-stars {\n            color: #00b67a;\n            font-size: 20px;\n            letter-spacing: 3px;\n            text-align: center;\n        }\n\n        .testimonial-text {\n            font-size: 15px;\n            color: #1a1a1a;\n            line-height: 1.6;\n            text-align: center;\n            font-style: italic;\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;\n            min-height: 60px;\n        }\n\n        .carousel-nav {\n            position: absolute;\n            top: 50%;\n            transform: translateY(-50%);\n            width: 100%;\n            display: flex;\n            justify-content: space-between;\n            pointer-events: none;\n            padding: 0 10px;\n        }\n\n        .nav-btn {\n            width: 50px;\n            height: 50px;\n            border-radius: 50%;\n            border: 2px solid #00b67a;\n            background: #fff;\n            color: #00b67a;\n            font-size: 24px;\n            cursor: pointer;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            transition: all 0.3s ease;\n            pointer-events: all;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n        }\n\n        .nav-btn:hover {\n            background: #00b67a;\n            color: #fff;\n            transform: scale(1.1);\n        }\n\n        .nav-btn:active {\n            transform: scale(0.95);\n        }\n\n        @media (max-width: 1024px) {\n            .carousel-wrapper {\n                padding: 0 50px;\n            }\n\n            .testimonial-card {\n                flex: 0 0 320px;\n            }\n\n            .video-wrapper {\n                height: 450px;\n            }\n        }\n\n        @media (max-width: 768px) {\n            .section-header h2 {\n                font-size: 26px;\n            }\n\n            .carousel-wrapper {\n                padding: 0 40px;\n            }\n\n            .testimonial-card {\n                flex: 0 0 280px;\n            }\n\n            .video-wrapper {\n                height: 400px;\n            }\n\n            .nav-btn {\n                width: 45px;\n                height: 45px;\n                font-size: 20px;\n            }\n        }\n\n        @media (max-width: 480px) {\n            .testimonials-section {\n                padding: 40px 0;\n            }\n\n            .section-header {\n                margin-bottom: 30px;\n            }\n\n            .section-header h2 {\n                font-size: 22px;\n            }\n\n            .rating-badge {\n                padding: 12px 20px;\n            }\n\n            .stars {\n                font-size: 18px;\n            }\n\n            .rating-text {\n                font-size: 13px;\n            }\n\n            .carousel-wrapper {\n                padding: 0 30px;\n            }\n\n            .testimonial-card {\n                flex: 0 0 260px;\n                padding: 20px;\n            }\n\n            .video-wrapper {\n                height: 360px;\n            }\n\n            .nav-btn {\n                width: 40px;\n                height: 40px;\n                font-size: 18px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <section class=\"testimonials-section\">\n        <div class=\"section-header\">\n            <h2>Was unsere Kunden sagen</h2>\n            <div class=\"rating-badge\">\n                <span class=\"stars\">★★★★★</span>\n                <span class=\"rating-text\">\n                    Ausgezeichnet <span class=\"rating-score\">4.8 von 5</span>\n                </span>\n            </div>\n        </div>\n\n        <div class=\"carousel-wrapper\">\n            <div class=\"carousel-container\">\n                <div class=\"carousel-track\" id=\"carouselTrack\">\n                    <!-- Card 1 - Markus -->\n                    <div class=\"testimonial-card\">\n                        <div class=\"video-wrapper\">\n                            <video muted loop playsinline>\n                                <source src=\"https://cdn.shopify.com/videos/c/o/v/f2259455a64f41f2b12e8347b7c3c3dc.mov\" type=\"video/mp4\">\n                            </video>\n                        </div>\n                        <div class=\"card-stars\">★★★★★</div>\n                        <p class=\"testimonial-text\">\"Die Stabilisierung ist der Wahnsinn! Perfekt für meine Skitouren in den Alpen.\"<br><strong>- Markus S.</strong></p>\n                    </div>\n\n                    <!-- Card 2 - Julia -->\n                    <div class=\"testimonial-card\">\n                        <div class=\"video-wrapper\">\n                            <video muted loop playsinline>\n                                <source src=\"https://cdn.shopify.com/videos/c/o/v/ee4ac936f0b94840a4c5f8f5f6855662.mp4\" type=\"video/mp4\">\n                            </video>\n                        </div>\n                        <div class=\"card-stars\">★★★★★</div>\n                        <p class=\"testimonial-text\">\"Endlich gestochen scharfe Videos beim Mountainbiken! Absolute Kaufempfehlung.\"<br><strong>- Julia M.</strong></p>\n                    </div>\n\n                    <!-- Card 3 - Stefan -->\n                    <div class=\"testimonial-card\">\n                        <div class=\"video-wrapper\">\n                            <video muted loop playsinline>\n                                <source src=\"https://cdn.shopify.com/videos/c/o/v/484903659fd74106b5ea6e2dbda8ec06.mov\" type=\"video/mp4\">\n                            </video>\n                        </div>\n                        <div class=\"card-stars\">★★★★★</div>\n                        <p class=\"testimonial-text\">\"Ich nutze sie täglich auf meinem Motorrad. Die Bildqualität ist herausragend!\"<br><strong>- Stefan W.</strong></p>\n                    </div>\n\n                    <!-- Card 4 - Sabrina -->\n                    <div class=\"testimonial-card\">\n                        <div class=\"video-wrapper\">\n                            <video muted loop playsinline>\n                                <source src=\"https://cdn.shopify.com/videos/c/o/v/f2259455a64f41f2b12e8347b7c3c3dc.mov\" type=\"video/mp4\">\n                            </video>\n                        </div>\n                        <div class=\"card-stars\">★★★★★</div>\n                        <p class=\"testimonial-text\">\"Beste Investition für meine Abenteuerreisen. Hält jeder Extremsituation stand!\"<br><strong>- Sabrina K.</strong></p>\n                    </div>\n\n                    <!-- Card 5 - Thomas -->\n                    <div class=\"testimonial-card\">\n                        <div class=\"video-wrapper\">\n                            <video muted loop playsinline>\n                                <source src=\"https://cdn.shopify.com/videos/c/o/v/ee4ac936f0b94840a4c5f8f5f6855662.mp4\" type=\"video/mp4\">\n                            </video>\n                        </div>\n                        <div class=\"card-stars\">★★★★★</div>\n                        <p class=\"testimonial-text\">\"Unglaublich einfach zu bedienen und liefert Profi-Qualität. Top Kamera!\"<br><strong>- Thomas B.</strong></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"carousel-nav\">\n                <button class=\"nav-btn\" onclick=\"prevSlide()\" aria-label=\"Vorheriges\">‹</button>\n                <button class=\"nav-btn\" onclick=\"nextSlide()\" aria-label=\"Nächstes\">›</button>\n            </div>\n        </div>\n    </section>\n\n    <script>\n        const track = document.getElementById('carouselTrack');\n        const cards = document.querySelectorAll('.testimonial-card');\n        let currentIndex = 0;\n        let autoScrollInterval;\n\n        function updateCarousel() {\n            const cardWidth = cards[0].offsetWidth + 25;\n            track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;\n        }\n\n        function nextSlide() {\n            currentIndex = (currentIndex + 1) % cards.length;\n            updateCarousel();\n            resetAutoScroll();\n            updateVideoPlayback();\n        }\n\n        function prevSlide() {\n            currentIndex = (currentIndex - 1 + cards.length) % cards.length;\n            updateCarousel();\n            resetAutoScroll();\n            updateVideoPlayback();\n        }\n\n        function startAutoScroll() {\n            autoScrollInterval = setInterval(() => {\n                nextSlide();\n            }, 4000);\n        }\n\n        function resetAutoScroll() {\n            clearInterval(autoScrollInterval);\n            startAutoScroll();\n        }\n\n        function updateVideoPlayback() {\n            cards.forEach((card, index) => {\n                const video = card.querySelector('video');\n                if (index === currentIndex) {\n                    video.play().catch(e => console.log('Video play failed:', e));\n                } else {\n                    video.pause();\n                }\n            });\n        }\n\n        startAutoScroll();\n        cards[0].querySelector('video').play().catch(e => console.log('Video play failed:', e));\n\n        track.addEventListener('mouseenter', () => {\n            clearInterval(autoScrollInterval);\n        });\n\n        track.addEventListener('mouseleave', () => {\n            startAutoScroll();\n        });\n\n        window.addEventListener('resize', updateCarousel);\n    </script>\n</body>\n</html>",
         "background": "#ffffff",
         "background_gradient": "linear-gradient(259deg, rgba(255, 255, 255, 1) 96%, rgba(33, 249, 150, 1) 97%)",
+        "text_color": ""
+      }
+    },
+    "multi_column_arbbAx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_fLcj8x": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/SnapTik-dot-Kim-8b0590558cebb1d509f872477ca78a14.mp4",
+            "column_size": "3",
+            "title": "Marco M.",
+            "heading_tag": "h4",
+            "content": "<p>\"Ich fahre jede Woche durch den Schwarzwald und die KlarPro hält jede Erschütterung aus. Die Videos sind so stabil, als würde ich auf Asphalt fahren! Endlich kann ich meine Trails in perfekter Qualität teilen.\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qyRtYk": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/5b9039a798af45358b89fac6223c21d9.mov",
+            "column_size": "3",
+            "title": "Elena T.",
+            "heading_tag": "h4",
+            "content": "<p>\"Beim Cliff-Jumping muss die Kamera extremen Belastungen standhalten. Die KlarPro liefert selbst im freien Fall atemberaubende Aufnahmen. Das ist keine Kamera – das ist ein Kunstwerk!\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yKg7CK": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/b7b62aa2977048bd9d1f8cc472d3a52d.mp4",
+            "column_size": "3",
+            "title": "Lukas P.",
+            "heading_tag": "h4",
+            "content": "<p>\"Bei 120 km/h auf der Autobahn bleibt jedes Bild gestochen scharf. Die KlarPro ist mein treuer Begleiter auf jeder Tour. Selbst bei Wind und Regen – einfach unschlagbar!\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3GhwKf": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/SnapTik-dot-Kim-82ce7a4d543ed65a6faaae95f5668808.mp4",
+            "column_size": "3",
+            "title": "Sarah N.",
+            "heading_tag": "h4",
+            "content": "<p>\"Von der Skipiste bis zum Tiefschnee – die KlarPro fängt jeden Moment perfekt ein. Die Bildstabilisierung bei hohen Geschwindigkeiten ist phänomenal. Meine beste Investition diesen Winter!\"</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_fLcj8x",
+        "item_qyRtYk",
+        "item_yKg7CK",
+        "item_3GhwKf"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Das sagen unsere Abenteurer",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
         "text_color": ""
       }
     },
@@ -781,6 +857,7 @@
     "custom_liquid_EPg6QM",
     "custom_liquid_xA6qyP",
     "custom_liquid_MeFEfU",
+    "multi_column_arbbAx",
     "featured_product_faRhQa",
     "impact_text_mfVmJg",
     "images_with_text_scrolling_pYUfTj",
