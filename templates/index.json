@@ -274,6 +274,7 @@
     },
     "custom_liquid_EPg6QM": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
